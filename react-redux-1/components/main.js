@@ -25,8 +25,8 @@ class main extends React.Component {
                 
                 <hr/>
                 <h5>					
-                    <iframe src="https://ghbtns.com/github-btn.html?user=625230882&repo=redux-react-webpack-redis-mongodb&type=star&count=true" frameBorder="0" scrolling="0" width="170px" height="20px"></iframe><br/>
-                    <a href="https://github.com/625230882/redux-react-webpack-redis-mongodb">View on GitHub</a>
+                    <iframe src="https://ghbtns.com/github-btn.html?user=fuqi1001&repo=Not-Craigslist&type=star&count=true" frameBorder="0" scrolling="0" width="170px" height="20px"></iframe><br/>
+                    <a href="https://github.com/fuqi1001/Not-Craigslist">View on GitHub</a>
                 </h5>
             </div>
         );
