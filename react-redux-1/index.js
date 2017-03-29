@@ -35,48 +35,7 @@ let createhandlers = function(dispatch) {
     return  dispatch(userActions.checkLogin());
 }
 
-/*const initialState = {
-    Detail : itemsData
-}
-const store = configureStore(initialState)
-const history = syncHistoryWithStore(browserHistory, store)*/
 
-
-
-/*$.ajax({
-    url: '/getItem',
-    method: 'get',
-}).done(data => {
-    console.log(data);
-    const initialState = {
-        Detail : data
-    }
-    const store = configureStore(initialState)
-    const history = syncHistoryWithStore(browserHistory, store)
-
-}).fail( xhr => {
-    console.log(xhr);
-})*/
-
-
-
-
-
-/*require('./styles/add-items.css')
-// render(
-//   <Provider store={store}>
-//     <AppleBasket />
-//   </Provider>,
-//   document.getElementById('root')
-// )
-
-// render(
-//   <Provider store={store}>
-//     <App/>
-//   </Provider>,
-//   document.getElementById('root2')
-// )
-*/
 
 const requireAuth = (nextState, replace, callback) => {
     const { user: { authenticated } } = store.getState()

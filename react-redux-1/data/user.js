@@ -16,12 +16,6 @@ let exportedMethods = {
                 .toArray();
         });
     }
-    // getSessionIdByUserId (id) {
-    //     return sessionCollection().then((col) => {
-    //         return col.findOne({passport : {user: id})
-            
-    //     })
-    // }
 
 }
 

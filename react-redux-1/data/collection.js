@@ -44,19 +44,3 @@ module.exports = {
     users: getCollectionFn("users"),
     sessions: getCollectionFn("sessions")
 }
-
-
-
-// let getCollectionFn = (collection) => {
-//     let _col = undefined;
-
-//     return () => {
-//         if (!_col) {
-//             _col = dbConnection().then(db => {
-//                 return db.collection(collection);
-//             });
-//         }
-
-//         return _col;
-//     }
-// }
